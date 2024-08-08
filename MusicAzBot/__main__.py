@@ -16,7 +16,7 @@ MusicAzBotIMG = f"{Config.START_IMG}"
 
 
 
-@app.on_message(filters.private & filters.incoming & filters.command(['start']))
+@app.on_message(filters.private & filters.incoming & filters.command(['star']))
 async def start(client, message):
     await message.reply_photo(
         MusicAzBotIMG,
